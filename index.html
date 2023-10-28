@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="screen-orientation" content="portrait">
+    <meta name="x5-orientation" content="portrait">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="format-detection" content="telephone=no,email=no">
+    <link rel="apple-touch-icon-precomposed" sizes="196x196" href="https://www.168182.xyz/images/apple-touch-icon-196x196.png" />
+    <link rel="shortcut icon" href="https://www.168182.xyz/images/favicon-icon.png" />
+    <title>SkipSpeed</title>
+    <meta name="keywords" content="SkipSpeedVPN">
+    <meta name="description" content="SkipSpeed，专线直通，适用于网络受限地区。拥有强大的技术支援，支持 androd，ios，windows等主流设备。">
+
+    <!--默认样式-->
+    <link rel="stylesheet" href="css/reset.css" tppabs="/css/reset.css">
+    <link rel="stylesheet" href="css/animate.css" tppabs="/css/animate.css">
+
+
+    <!--主要样式-->
+
+    <link rel="stylesheet" href="css/index.css" tppabs="/css/index.css">
+    <script src="js/jquery-1.11.1.min.js" tppabs="/js/jquery-1.11.1.min.js"></script>
+    <!--google-->
+    <!-- Global site tag (gtag.js) - Google Ads: 623836661 -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // var channel = 'xyi1';
+            // var data = Track.parseUrlParams(); //Track.js中提供的工具函数，解析url中的所有查询参数
+            // if (data.channel == "" || data.channel == "undefined" || data.channel == null || data.channel == undefined) {
+            //     data.channel = channel;
+            // }
+
+            var u = navigator.userAgent;
+            var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1;
+
+            if (isAndroid) {
+                var button = $('.downloadButton');
+                button.click(function() {
+                    location.href = `app/SkipSpeed.apk`;
+                    let callback = function() {}
+                    gtag('event', 'conversion', {
+                        'send_to': btn_gtag,
+                        'event_callback': callback
+                    });
+                    return false;
+                });
+            } else {
+                var button = $('.downloadButton');
+                button.click(function() {
+                    location.href = `appstore.html`;
+                    let callback = function() {}
+                    gtag('event', 'conversion', {
+                        'send_to': btn_gtag,
+                        'event_callback': callback
+                    });
+                    return false;
+                });
+
+            }
+        });
+    </script>
+
+
+
+</head>
+
+<body>
+
+
+
+    <div class="zy_top_bg">
+        <div class="main_box">
+            <div class="logo wow  fadeInDown" style="visibility: visible; animation-name: fadeInDown;">
+                <div class="logo_tu"><img src="images/logo.png" tppabs="/images/logo.png"></div>
+            </div>
+        </div>
+        <div class="main_box">
+            <div class="zy_top_txt wow bounceInDown" style="visibility: visible; animation-name: bounceInDown;"><img src="images/adtxt.png" tppabs="/images/adtxt.png"></div>
+        </div>
+    </div>
+
+
+
+    <div class="zy_main_tu_bg">
+        <div class="zy_main_tu_box">
+            <div class="zy_main_tu4 wow bounceInUp" data-wow-duration="1.8s" style="visibility: visible; animation-duration: 1.8s; animation-name: bounceInUp;"><img src="images/sy_adtu4.png" tppabs="/images/sy_adtu4.png"></div>
+            <div class="zy_main_tu3 wow bounceInLeft" data-wow-duration="1.2s" style="visibility: visible; animation-duration: 1.2s; animation-name: bounceInLeft;"><img src="images/sy_adtu3.png" tppabs="/images/sy_adtu3.png"></div>
+            <div class="zy_main_tu2 wow bounceIn" data-wow-duration="0.6s" style="visibility: visible; animation-duration: 0.6s; animation-name: bounceIn;"><img src="images/sy_adtu2.png" tppabs="/images/sy_adtu2.png"></div>
+            <div class="zy_main_tu1 wow bounceInRight" data-wow-duration="1.3s" style="visibility: visible; animation-duration: 1.3s; animation-name: bounceInRight;"><img src="images/sy_adtu1.png" tppabs="/images/sy_adtu1.png"></div>
+        </div>
+    </div>
+
+
+
+
+    <div class="pc_xz_k">
+
+        <div class="bai_bg" style="padding-top:20px">
+            <div class="main_box">
+                <div class="m_bt_tilte wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">
+                    <h3><span><img src="images/line_L.png"></span>客户端下载 <span><img src="images/line_R.png"></span></h3>
+                    <p>请选择合适的客户端点击下载</p>
+                </div>
+            </div>
+            <div class="main_box">
+
+
+                <div class="pc_xzlist wow bounceInUp" style="visibility: visible; animation-name: bounceInUp;">
+
+                    <li>
+                        <a href="https://openvpn.net/downloads/openvpn-connect-v3-windows.msi">
+                            <dl>
+                                <dd>Windows客户端</dd>
+                                <div class="bbxz_btn_k">
+                                    <div class="bbxz_btn" data-agl-cvt="6" id="down01">立即下载</div>
+                                </div>
+                                <dt><div class="pc_xz_tu1"></div></dt>
+                            </dl>
+                        </a>
+                    </li>
+
+
+
+                    <li>
+                        <dl>
+                            <a href="app/SkipSpeed.apk" class="downloadButton">
+                                <dd>Android客户端</dd>
+                                <div class="bbxz_btn_k">
+                                    <div class="bbxz_btn" data-agl-cvt="6" id="down02">立即下载</div>
+                                </div>
+                                <dt><div class="pc_xz_tu2"></div></dt>
+                            </a>
+                        </dl>
+                        <a href="javascript:;" class="downloadButton">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:;" class="downloadButton">
+                            <dl>
+                                <dd>IOS客户端</dd>
+                                <div class="bbxz_btn_k">
+                                    <div class="bbxz_btn" data-agl-cvt="6" id="down03">立即下载</div>
+                                </div>
+                                <dt><div class="pc_xz_tu3"></div></dt>
+                            </dl>
+                        </a>
+                    </li>
+
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-----------大屏-版本下载--//---------->
+
+
+    <!-----------小屏-下载------------>
+    <div class="down_xiazai wow bounceInDown animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: bounceInDown;">
+        <ul>
+            <li>
+                <div class="d_btn1 downloadButton" data-agl-cvt="6" id="down05">
+                    <a href="app/SkipSpeed.apk">
+                        <dl>
+                            <dd><span><img src="images/i_android1.png"></span>Android下载</dd>
+                        </dl>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <div class="d_btn2 downloadButton" data-agl-cvt="6" id="down06">
+                    <a href="https://00gse.acuoauh.com/bq9v0">
+                        <dl>
+                            <dd><span><img src="images/i_ios1.png"></span>IOS下载</dd>
+                        </dl>
+                    </a>
+                </div>
+            </li>
+        </ul>
+        <div class="space4"></div>
+    </div>
+    <!----------小屏--下载//---------->
+
+
+
+    <!---------特点1----------->
+    <ul class="advantage1">
+
+
+        <li class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="main_box">
+
+                <div class="advantage1_tu"><img src="images/h_img1.png" tppabs="/images/h_img1.png"></div>
+
+                <dl>
+                    <dt>快速，稳定</dt>
+                    <dd>特有的国内外 智能分流技术，畅快上网体验，完美支持游戏和各种软件网站，通过我们私有的协议，拒绝闪退，独享宽带，国际骨干宽带节点，无延迟更畅快！超大宽带和无限流量带来的高速网络体验。</dd>
+                </dl>
+            </div>
+        </li>
+
+        <li class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="main_box">
+
+                <div class="advantage1_tu"><img src="images/h_img2.png" tppabs="/images/h_img2.png"></div>
+
+                <dl>
+                    <dt>多平台，多设备，私密协议</dt>
+                    <dd>自主开发各平台客户端，无需繁琐的设置。一个账号畅行Windows、iOS、Android和mac各终端平台，突破办公室/学校/酒店等公共场所网络的限制。</dd>
+                </dl>
+            </div>
+        </li>
+
+        <li class="wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+            <div class="main_box">
+
+
+                <div class="advantage1_tu"><img src="images/h_img3.png" tppabs="/images/h_img3.png"></div>
+
+                <dl>
+                    <dt>数据加密/隐私保护模块</dt>
+                    <dd>独有的网络限制模块，断网后自动禁止本机所有网络，防止IP泄露。数据传输基于SSL 256位加密，不记录您的网络传输，保护隐私。支持UDP、TCP匿名上网，保护您的真实IP不被泄露，保护您的个人信息安全。</dd>
+                </dl>
+            </div>
+        </li>
+    </ul>
+
+    <!---------特点1-//---------->
+
+
+
+
+
+
+
+
+
+    <!----------p1------------>
+    <div class="bai_bg">
+        <div class="main_box">
+
+
+
+            <div class="wh_box">
+                <li class="wow fadeInDown" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">
+                    <div class="wh_tu">
+                        <div class="topArrow1"></div>
+                        <img src="images/tu1.jpg" tppabs="/images/tu1.jpg"></div>
+                    <dl>
+                        <dt>全球多节点加速</dt>
+                        <dd>美国、欧洲、韩国、香港、中国等全球多节点加速，稳定连接国内外游戏和网站</dd>
+                    </dl>
+                </li>
+
+
+                <li class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                    <dl>
+                        <dt>多用户端支持</dt>
+                        <dd>自主开发各平台客户端，一个账号，多端支持使用，可加速电脑和移动端游戏、网页、应用等。</dd>
+                    </dl>
+                    <div class="wh_tu">
+                        <div class="topArrow2"></div>
+                        <img src="images/tu2.jpg" tppabs="/images/tu2.jpg"></div>
+                </li>
+
+
+                <li class="wow fadeInDown" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInDown;">
+                    <div class="wh_tu">
+                        <div class="topArrow1"></div>
+                        <img src="images/tu3.jpg" tppabs="/images/tu3.jpg"></div>
+                    <dl>
+                        <dt>智能分流</dt>
+                        <dd>加速访问国外网站，游戏平台，外服国服游戏等，无限制的流量任您使用</dd>
+                    </dl>
+                </li>
+            </div>
+
+
+        </div>
+    </div>
+    <!----------p1-//--------->
+
+
+
+
+
+    <!-------------------------------------我们的优势 -------------------------------------->
+    <div class="hui_bg  sy_ys_bg">
+
+        <div class="wrap">
+            <div class="main_box">
+                <div class="m_bt_tilte wow fadeInDown" style="visibility: visible; animation-name: fadeInDown;">
+                    <h3><span><img src="images/line_L.png" tppabs="/images/line_L.png"></span> 我们的优势 <span><img src="images/line_R.png" tppabs="/images/line_R.png"></span></h3>
+                    <p>多个国家/地区节点，享受无限制的网络访问，为您提供高速、稳定的连接。</p>
+                </div>
+            </div>
+
+
+            <div class="his_list">
+                <div class="line"></div>
+                <ul>
+                    <li class="wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+                        <div class="img"><img src="images/i_i1.png" tppabs="/images/i_i1.png"></div>
+                        <div class="txt">
+                            <h3>专线直通拒绝延迟</h3>
+                            <p>海底光缆专线直通，1080p视频秒开，延迟低于30ms，专业研发团队持续维护。</p>
+                        </div>
+                    </li>
+                    <li class="wow fadeInUp" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
+                        <div class="img"><img src="images/i_i2.png" tppabs="/images/i_i2.png"></div>
+                        <div class="txt">
+                            <h3>超大带宽不限流量</h3>
+                            <p>挑选优质服务器，不限流量随心所欲享受超大带宽的极速、稳定网络。</p>
+                        </div>
+                    </li>
+                    <li class="wow fadeInUp" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
+                        <div class="img"><img src="images/i_i3.png" tppabs="/images/i_i3.png"></div>
+                        <div class="txt">
+                            <h3>突破地域限制</h3>
+                            <p>无论您身在何处，都可以访问任何网站、视频、应用等，告别单一上网方式。</p>
+                        </div>
+                    </li>
+                    <li class="wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                        <div class="img"><img src="images/i_i4.png" tppabs="/images/i_i4.png"></div>
+                        <div class="txt">
+                            <h3>遍布多国家/地区</h3>
+                            <p>从多个国家/地区中进行选择，隐藏您的真实位置，保护您的个人隐私。</p>
+                        </div>
+                    </li>
+                    <li class="wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                        <div class="img"><img src="images/i_i5.png" tppabs="/images/i_i5.png"></div>
+                        <div class="txt">
+                            <h3>业界领先的加密技术</h3>
+                            <p>采用市场上最顶级的加密技术来保护您的网上踪迹，无日志服务，让您的数据更安全、更秘密。</p>
+                        </div>
+                    </li>
+
+                    <li class="wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
+                        <div class="img"><img src="images/i_i6.png" tppabs="/images/i_i6.png"></div>
+                        <div class="txt">
+                            <h3>随时获取在线帮助</h3>
+                            <p>我们提供多个客服渠道，7X24小时为您提供贴心的实时在线帮助。</p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+    <!-------------------------------------我们的优势 //-------------------------------------->
+
+
+
+    <!-----------手机版浮动-下载------------>
+
+    <div class="foot_box">
+        <a href="https://00gse.acuoauh.com/bq9v0" tppabs="/#">
+            <div class="f_down_btn downloadButton" data-agl-cvt="6" id="down07">立即下载</div>
+        </a>
+        <div class="d_logo">
+            <a href="#" tppabs="/#"><img src="images/logo.png" tppabs="/images/logo.png"></a>
+        </div>
+    </div>
+    <!-----------手机版浮动-下载-//----------->
+
+
+    <!-----------底部信息------------>
+    <div class="down_box_bg">
+        <div class="main_box">
+
+            <div class="down_info">
+                <div class="down_logo_pc">
+                    <a href="#" tppabs="/#"><img src="images/logo.png" tppabs="/images/logo.png"></a>
+                </div>
+                <dl>
+                    <dd>
+                    </dd>
+                    <dd>Copyright © 2020 SkipSpeed. xiyo Technology Co., Ltd.</dd>
+                </dl>
+            </div>
+            <div class="down_info_i">
+                <span><img src="images/ft_01.jpg" tppabs="/images/ft_01.jpg"></span>
+                <span><img src="images/ft_02.jpg" tppabs="/images/ft_02.jpg"></span>
+                <span><img src="images/ft_03.jpg" tppabs="/images/ft_03.jpg"></span>
+                <span><img src="images/ft_04.jpg" tppabs="/images/ft_04.jpg"></span>
+                <span><img src="images/ft_05.jpg" tppabs="/images/ft_05.jpg"></span>
+            </div>
+
+        </div>
+    </div>
+
+    <!-----------底部信息//------------>
+
+
+
+
+
+
+
+
+
+
+    <div class="actGotop" style="display: none;"><a href="javascript:;" title="返回顶部">​</a></div>
+    <script type="text/javascript">
+        $(function() {
+            $(window).scroll(function() {
+                if ($(window).scrollTop() >= 100) {
+                    $('.actGotop').fadeIn(300);
+                } else {
+                    $('.actGotop').fadeOut(300);
+                }
+            });
+            $('.actGotop').click(function() {
+                $('html,body').animate({
+                    scrollTop: '0px'
+                }, 800);
+            });
+        });
+    </script>
+<script async src="https://analytics.eu.umami.is/script.js" data-website-id="4313c9ab-8ae0-4bab-acad-7fe9effcdf56"></script>
+
+
+</body>
+
+</html>

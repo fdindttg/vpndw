@@ -1,0 +1,1147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  box-shadow: none; }
+body{-webkit-text-size-adjust:none}
+
+
+.page1_k{ overflow: hidden; padding: 0px;  margin: 0px;background: url("../images/top_bg.jpg")/*tpa=https://www.xiyovpn.com/images/top_bg.jpg*/ no-repeat center top;
+background-size: cover; padding-bottom:200px; min-height:600px}
+li{ list-style:none}
+
+
+
+/*-----------------共用------------*/
+.space1{ overflow:hidden; clear:both; height:10px; width:100%}
+.space2{ overflow:hidden; clear:both; height:20px; width:100%}
+.space3{ overflow:hidden; clear:both; height:30px; width:100%}
+.space4{ overflow:hidden; clear:both; height:40px; width:100%}
+
+
+@media only screen and (max-width:1050px) {
+.space2{ overflow:hidden; clear:both; height:10px; width:100%}
+.space3{ overflow:hidden; clear:both; height:10px; width:100%}
+.space4{ overflow:hidden; clear:both; height:20px; width:100%}
+}
+
+
+.hui_bg{ background:#f6f6f6; width:100%; padding:80px 0px 80px 0px; overflow:hidden; }
+.bai_bg{ background:#ffffff; width:100%; padding:80px 0px 80px 0px; overflow:hidden; }
+
+
+@media only screen and (max-width:1400px) {
+.hui_bg{ background:#f6f6f6; width:100%; padding:60px 0px 60px 0px; overflow:hidden;}
+.bai_bg{ background:#ffffff; width:100%; padding:60px 0px 60px 0px; overflow:hidden; }
+}
+
+
+@media only screen and (max-width:1050px) {
+.hui_bg{ background:#f6f6f6; width:100%; padding:30px 0px 30px 0px; overflow:hidden;}
+.bai_bg{ background:#ffffff; width:100%; padding:30px 0px 30px 0px; overflow:hidden; }
+}
+
+.main_box{ height:auto; max-width:1300px; width:94%; margin:0 auto; overflow: hidden}
+
+
+
+.logo_box{ overflow:hidden; margin:0px; padding:0px}
+.logo{ overflow:hidden; margin:0px; padding:30px 0px 20px 0px; font-size:25px; line-height:50px; color:#FFFFFF}
+.logo_tu{  margin:0px; padding:0px; width:auto; overflow:hidden;}
+.logo_tu img{ width:auto; height:56px}
+
+
+.main_sj{ width:40%;overflow:hidden; margin:0px; padding:0px; margin-left:60%}
+
+.main_txt{overflow:hidden; margin:0px; padding:0px; margin-top:17%; margin-bottom:40px;}
+.main_txt img{ max-width:100%; width:auto; height:auto; vertical-align:top}
+
+
+.main_txt dl{overflow:hidden; margin:0px; padding:0px; color:#FFFFFF}
+.main_txt dl dt{overflow:hidden; margin:0px; padding:0px; font-size:50px; line-height:190%; margin-bottom:10px; font-weight:700}
+.main_txt dl dd{overflow:hidden; margin:0px; padding:0px; font-size:20px; line-height:190%}
+
+
+.down_xiazai{margin:0px; padding:0px; overflow:hidden; position:relative; margin-bottom:20px;  display:none}
+.down_xiazai li{margin:0px; padding:15px 10px; overflow:hidden; float:left; width:50%; }
+
+
+.d_btn{ width:220px; height:66px; background:#fff; margin:0px; padding:0px; border-radius:5px; margin:0 a}
+.d_btn dl{margin:0px; padding:0px;overflow:hidden; }
+.d_btn dl dd{margin:0px; padding:0px;overflow:hidden; font-size:18px; color:#fff; font-weight:300; padding-left:30px; line-height:40px; padding-top:13px}
+.d_btn dl dd span {margin:0px; padding:0px; margin-right:10px}
+.d_btn dl dd span img{ width:40px; height:40px; vertical-align:middle;}
+
+.d_btn1{ width:220px; height:66px; background:#23d7d1; margin:0px; padding:0px; border-radius:5px; margin:0 auto}
+.d_btn1 dl{margin:0px; padding:0px;overflow:hidden; }
+.d_btn1 dl dd{margin:0px; padding:0px;overflow:hidden; font-size:18px; color:#fff; font-weight:300; padding-left:30px; line-height:40px; padding-top:13px}
+.d_btn1 dl dd span {margin:0px; padding:0px; margin-right:10px}
+.d_btn1 dl dd span img{ width:40px; height:40px; vertical-align:middle;}
+
+.d_btn2{ width:220px; height:66px; background:#23d7d1; margin:0px; padding:0px; border-radius:5px; margin:0 auto}
+.d_btn2 dl{margin:0px; padding:0px;overflow:hidden; }
+.d_btn2 dl dd{margin:0px; padding:0px;overflow:hidden; font-size:18px; color:#fff; font-weight:300; padding-left:30px; line-height:40px; padding-top:13px}
+.d_btn2 dl dd span {margin:0px; padding:0px; margin-right:10px}
+.d_btn2 dl dd span img{ width:40px; height:40px; vertical-align:middle;}
+
+.d_btn:hover dl dd{ color:#009a93}
+.d_btn1:hover dl dd{ color:#009a93}
+.d_btn2:hover dl dd{ color:#009a93}
+
+
+.xiazai_m1{ position:absolute; z-index:15; float:left;left:7%; top:175px;display:none}
+.xiazai_m2{ position:absolute; z-index:16; float:right;right:14%; top:175px;display:none}
+.div_tu{ width:150px; height:auto; overflow:hidden}
+.div_tu img{ width:150px; height:150px}
+
+.d_btn a{ display:inline}
+.d_btn1 a{ display:inline}
+.d_btn2 a{ display:inline}
+
+
+.d_btn:hover {box-shadow:0 0 10px 1px rgba(0,0,0,.2)}
+.d_btn1:hover {box-shadow:0 0 10px 1px rgba(0,0,0,.2)}
+.d_btn2:hover {box-shadow:0 0 10px 1px rgba(0,0,0,.2)}
+
+
+
+.d_btn1:hover .xiazai_m1{ display:block;margin-top:0px;transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+.d_btn2:hover .xiazai_m2{ display:block;margin-top:0px;transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+
+
+
+.sy_top_L{ margin:0px; padding:0px; overflow:hidden; float:left; width:50%;}
+.sy_top_R{ margin:0px; padding:0px; overflow:hidden; float: right; width:50%;}
+
+.sy_main_txt{overflow:hidden; margin:0px; padding:0px; margin-top:19%; margin-bottom:20px;}
+.sy_main_txt img{ max-width:100%; width:auto; height:auto; vertical-align:top;}
+
+.sy_top_tu_box{ position:relative;margin:0px; padding:0px; overflow:hidden; margin-top:18%; }
+.sy_top_tu_box .sy_top_tu1{margin:0px; padding:0px; overflow:hidden;}
+.sy_top_tu_box .sy_top_tu2{margin:0px; padding:0px; overflow:hidden; position:absolute; z-index:12; float:left; left:0; width:100%;top:0}
+.sy_top_tu_box .sy_top_tu3{margin:0px; padding:0px; overflow:hidden; position:absolute; z-index:13; float:left; left:0; width:100%;top:0}
+.sy_top_tu_box .sy_top_tu4{margin:0px; padding:0px; overflow:hidden; position:absolute; z-index:14; float:left; left:0; width:100%;top:0}
+
+.sy_top_tu1 img{max-width:100%; width:auto; height:auto; vertical-align:top}
+.sy_top_tu2 img{max-width:100%; width:auto; height:auto; vertical-align:top}
+.sy_top_tu3 img{max-width:100%; width:auto; height:auto; vertical-align:top}
+.sy_top_tu4 img{max-width:100%; width:auto; height:auto; vertical-align:top}
+
+
+
+
+
+@media screen and (max-width: 1400px){
+	
+.page1_k{ overflow: hidden; padding: 0px;  margin: 0px;background: url("../images/top_bg.jpg")/*tpa=https://www.xiyovpn.com/images/top_bg.jpg*/ no-repeat center top;background-size: cover;padding-bottom:150px; min-height:300px; height:auto}
+
+.main_sj{ width:50%;overflow:hidden; margin:0px; padding:0px; margin-left:50%}	
+.main_txt{overflow:hidden; margin:0px; padding:0px; margin-top:12%; margin-bottom:20px}
+.down_xiazai{margin:0px; padding:0px; overflow:hidden; position:relative;}
+
+.div_tu{ width:100px; height:auto;}
+.div_tu img{ width:100px; height:100px}
+
+.main_txt dl dt{overflow:hidden; margin:0px; padding:0px; font-size:40px; line-height:190%; margin-bottom:10px; font-weight:700}
+
+.xiazai_m1{ position:absolute; z-index:15; float:left;left:9%; top:170px;display:none}
+.xiazai_m2{ position:absolute; z-index:16; float:right;right:25%; top:170px;display:none}
+}
+
+@media screen and (max-width: 1200px){
+.sy_main_txt{overflow:hidden; margin:0px; padding:0px; margin-top:16%; margin-bottom:20px;}
+.sy_top_tu_box{ position:relative;margin:0px; padding:0px; overflow:hidden; margin-top:15%; }
+
+
+
+
+
+.main_txt dl dd{overflow:hidden; margin:0px; padding:0px; font-size:18px; line-height:190%}
+
+.xiazai_m1{ position:absolute; z-index:15; float:left;left:10%; top:135px;display:none}
+.xiazai_m2{ position:absolute; z-index:16; float:right;right:18%; top:135px;display:none}
+
+.d_btn{ width:200px; height:50px; margin:0px; padding:0px; border-radius:5px; margin:0 auto}
+.d_btn dl{margin:0px; padding:0px;overflow:hidden; }
+.d_btn dl dd{margin:0px; padding:0px;overflow:hidden; font-size:16px; font-weight:300; padding-left:30px; line-height:40px; padding-top:5px}
+.d_btn dl dd span {margin:0px; padding:0px; margin-right:10px}
+.d_btn dl dd span img{ width:30px; height:30px; vertical-align:middle;}
+
+.d_btn1{ width:200px; height:50px; margin:0px; padding:0px; border-radius:5px; margin:0 auto}
+.d_btn1 dl{margin:0px; padding:0px;overflow:hidden; }
+.d_btn1 dl dd{margin:0px; padding:0px;overflow:hidden; font-size:16px;font-weight:300; padding-left:30px; line-height:40px; padding-top:5px}
+.d_btn1 dl dd span {margin:0px; padding:0px; margin-right:10px}
+.d_btn1 dl dd span img{ width:30px; height:30px; vertical-align:middle;}
+
+.d_btn2{ width:200px; height:50px; margin:0px; padding:0px; border-radius:5px; margin:0 auto}
+.d_btn2 dl{margin:0px; padding:0px;overflow:hidden; }
+.d_btn2 dl dd{margin:0px; padding:0px;overflow:hidden; font-size:16px; font-weight:300; padding-left:30px; line-height:40px; padding-top:5px}
+.d_btn2 dl dd span {margin:0px; padding:0px; margin-right:10px}
+.d_btn2 dl dd span img{ width:30px; height:30px; vertical-align:middle;}
+
+
+}
+
+
+
+@media screen and (max-width: 1000px){
+.sy_main_txt{overflow:hidden; margin:0px; padding:0px; margin-top:13%; margin-bottom:20px;}
+.sy_top_tu_box{ position:relative;margin:0px; padding:0px; overflow:hidden; margin-top:12%; }
+
+.sy_top_L{ margin:0px; padding:0px; overflow:hidden; float:left; width:55%;}
+.sy_top_R{ margin:0px; padding:0px; overflow:hidden; float: right; width:45%;}
+
+.down_xiazai{ display:block}
+
+.d_btn:hover {box-shadow:0 0 0px 0px rgba(0,0,0,.0)}
+.d_btn1:hover {box-shadow:0 0 0px 0px rgba(0,0,0,.0)}
+.d_btn2:hover {box-shadow:0 0 0px 0px rgba(0,0,0,.0)}
+
+
+.d_btn{ display:none}
+.down_xiazai{margin:0px; padding:0px; overflow:hidden; position:relative;max-width:540px; width:100%; margin:0 auto }
+
+.xiazai_m1{ position:absolute; z-index:15; float:left;left:9%; top:85px;display:none}
+.xiazai_m2{ position:absolute; z-index:16; float:right;right:13.5%; top:85px;display:none}
+
+.div_tu{ width:120px; height:auto;}
+.div_tu img{ width:120px; height:120px}
+
+.page1_k{ overflow: hidden; padding: 0px;  margin: 0px;background: url("../images/top_bg.jpg")/*tpa=https://www.xiyovpn.com/images/top_bg.jpg*/ no-repeat center top;background-size: cover; min-height:100px; height:auto; padding-bottom:80px}
+
+}
+
+@media screen and (max-width: 900px){
+
+.main_sj{ width:90%;overflow:hidden; margin:0px; padding:0px; margin-left:5%}	
+
+.main_txt{overflow:hidden; margin:0px; padding:0px; margin-top:6%; margin-bottom:10px; text-align:center}
+
+.logo{ overflow:hidden; margin:0px; padding:30px 0px 20px 0px; font-size:20px; line-height:36px; color:#FFFFFF}
+.logo_tu{  margin:0px; padding:0px; width:auto; overflow:hidden; }
+.logo_tu img{ width:auto; height:36px}
+}
+
+.w_pc_tu{ margin:0px; padding:0px; text-align:center; margin:0 auto; width:85%; display:none;}
+.w_pc_tu img{ max-width:100%; height:auto}
+
+@media screen and (max-width: 900px){
+.w_pc_tu{ display:block; margin-bottom:10px}
+
+.sy_main_txt{overflow:hidden; margin:0px; padding:0px; margin-top:6%; margin-bottom:10px; text-align:center; width:94%; margin-left:3%}
+.sy_top_tu_box{ position:relative;margin:0px; padding:0px; overflow:hidden; margin-top:0px; }
+
+.sy_top_L{ margin:0px; padding:0px; overflow:hidden; float:left; width:100%;}
+.sy_top_R{ margin:0px; padding:0px; overflow:hidden; float: right; width:100%; display:none}
+
+}
+@media screen and (max-width: 500px){
+.down_xiazai{margin:0px; padding:0px; overflow:hidden; position:relative; max-width:340px; margin:0 auto; width:100%;}
+
+.logo{ overflow:hidden; margin:0px; padding:30px 0px 20px 0px; font-size:20px; line-height:36px; color:#FFFFFF; text-align:center}
+
+.main_sj{ width:100%;overflow:hidden; margin:0px; padding:0px; margin-left:0%}
+
+.main_txt dl dt{overflow:hidden; margin:0px; padding:0px; font-size:30px; line-height:190%; margin-bottom:10px; font-weight:700; text-align:center}
+.main_txt dl dd{overflow:hidden; margin:0px; padding:0px; font-size:16px; line-height:190%}
+
+
+.d_btn{ width:140px; height:50px;margin:0px; padding:0px; border-radius:5px; margin:0 auto}
+.d_btn dl{margin:0px; padding:0px;overflow:hidden; }
+.d_btn dl dd{margin:0px; padding:0px;overflow:hidden; font-size:14px;font-weight:300; padding-left:12px; line-height:40px; padding-top:5px}
+.d_btn dl dd span {margin:0px; padding:0px; margin-right:10px}
+.d_btn dl dd span img{ width:30px; height:30px; vertical-align:middle;}
+
+.d_btn1{ width:140px; height:50px; margin:0px; padding:0px; border-radius:5px; margin:0 auto}
+.d_btn1 dl{margin:0px; padding:0px;overflow:hidden; }
+.d_btn1 dl dd{margin:0px; padding:0px;overflow:hidden; font-size:14px; font-weight:300; padding-left:12px; line-height:40px; padding-top:5px}
+.d_btn1 dl dd span {margin:0px; padding:0px; margin-right:10px}
+.d_btn1 dl dd span img{ width:30px; height:30px; vertical-align:middle;}
+
+.d_btn2{ width:140px; height:50px; margin:0px; padding:0px; border-radius:5px; margin:0 auto}
+.d_btn2 dl{margin:0px; padding:0px;overflow:hidden; }
+.d_btn2 dl dd{margin:0px; padding:0px;overflow:hidden; font-size:14px;font-weight:300; padding-left:12px; line-height:40px; padding-top:5px}
+.d_btn2 dl dd span {margin:0px; padding:0px; margin-right:10px}
+.d_btn2 dl dd span img{ width:30px; height:30px; vertical-align:middle;}
+
+.xiazai_m1{ position:absolute; z-index:15; float:left;left:25px; top:85px;display:none}
+.xiazai_m2{ position:absolute; z-index:16; float:right;right:25px; top:85px;display:none}
+
+.page1_k{ overflow: hidden; padding: 0px;  margin: 0px;background: url("../images/top_bg.jpg")/*tpa=https://www.xiyovpn.com/images/top_bg.jpg*/ no-repeat center top;background-size: cover; min-height:100px; height:auto; padding-bottom:50px}
+}
+
+
+.gotop_box{ overflow:hidden; margin:0 auto; text-align:center; width:80px; position:relative; height:90px}
+
+
+
+.down_box_bg{ overflow:hidden; margin:0px; padding:40px 0px; background:#24253a}
+
+
+.down_info{overflow:hidden; margin:0px; padding:0px; width:60%; float:left}
+.down_info dl{overflow:hidden; margin:0px; padding:0px;border-left:#363854 1px solid; padding-left:20px}
+.down_info dl dd{overflow:hidden; margin:0px; padding:0px; color:#ccc;line-height:190%;}
+.down_info dl dd a{font-size:16px; color:#FFFFFF; margin-right:10px }
+.down_info_i{ margin:0px; padding:0px;  overflow:hidden;width:40%; float: right; text-align:right}
+.down_info_i span{ width:41px; height:41px; vertical-align:middle; margin-left:3px; margin-right:3px}
+.down_info_i span img{ width:41px; height:41px; vertical-align:middle;}
+
+.down_logo_pc{ float:left; overflow:hidden; margin:0px; padding:0px; display:block; padding-right:20px; border-right:#000000 1px solid}
+.down_logo_pc img{ height:50px; width:auto; vertical-align:top}
+
+@media only screen and (max-width:1050px) {
+.down_logo_pc{ display:none}
+.down_info dl dd{overflow:hidden; margin:0px; padding:0px; color:#ccc;line-height:190%; }
+.down_info dl{padding:0px;border-left:#363854 0px solid;}
+}
+
+
+@media only screen and (max-width:750px) {
+.down_info_i{ margin:0px; padding:0px;  overflow:hidden;width:auto; float: right; text-align:right}
+.down_info_i span img{ width:31px; height:31px; vertical-align:middle;}
+
+}
+ 
+ @media only screen and (max-width:650px) {
+ .down_info{overflow:hidden; margin:0px; padding:0px; width:100%; float:left}
+.down_info dl dd{overflow:hidden; margin:0px; padding:0px; color:#ccc;line-height:190%; text-align:center}
+
+.down_info_i{ margin:0px; padding:0px;  overflow:hidden;width:100%; float: right; text-align: center; margin-top:10px}
+
+.down_info dl dd a{margin-right:5px;margin-left:5px }
+ }
+.down_nav{margin-bottom:10px; overflow:hidden; text-align:center}
+.down_nav sapn{ margin:0px; padding:0px;  overflow:hidden;text-align: center; color:#FFFFFF;line-height:20px;font-size:16px; }
+.down_nav a{ font-size:16px; color:#FFFFFF; line-height:20px;margin-left:5px; margin-right:5px}
+
+
+.down_cop{ overflow:hidden; margin:0px;  color:#acacac; font-size:12px; line-height:190%; margin-top:10px}
+.down_cop a{ color:#acacac; font-size:12px;}
+
+
+@media only screen and (max-width:750px) {
+.down_box_bg{padding:20px 0px;}
+.down_info dl dd{ font-size:12px}
+.down_info dl dd a{ font-size:14px}
+}
+
+
+
+
+.actGotop{position:fixed;_position:absolute;bottom:80px;right:2%;width:40px;height:40px;display:none; z-index:9999}
+.actGotop a,.actGotop a:link{width:40px;height:40px;display:inline-block; text-align:center; background: url("../images/up.png")/*tpa=https://www.xiyovpn.com/images/up.png*/ no-repeat center; background-size:cover;}
+.actGotop a:hover{ background:url("../images/up.png")/*tpa=https://www.xiyovpn.com/images/up.png*/ no-repeat center;outline:none; background-size:cover;}
+
+
+
+.page2_k{ background:#f6f6f6; overflow:hidden; margin:0px; padding:40px 0px}
+
+.sy_ys1{overflow:hidden; margin:0px; padding:0px}
+.sy_ys1 li{overflow:hidden; margin:0px; padding:0px; float:left; width:33.333%}
+.sy_ys1 li dl{overflow:hidden; margin:0px; padding:0px; max-width:340px; width:94%; margin:0 auto;text-align:center}
+.sy_ys1 li dl dt{overflow:hidden; margin:0px; padding:0px; margin-bottom:10px; text-align:center}
+.sy_ys1 li dl dt img{ width:81px; height:81px; vertical-align:top}
+.sy_ys1 li dl dd h3{overflow:hidden; margin:0px; padding:0px; font-size:18px; font-weight:normal; margin-bottom:5px; color:#000000}
+.sy_ys1 li dl dd{overflow:hidden; margin:0px; padding:0px; font-size:14px; line-height:24px; color:#666}
+
+.sy_ys1 li:hover dl dt img{animation: tada 2s infinite;}
+
+@media only screen and (max-width:1200px) {
+.page2_k{padding:30px 0px}
+}
+
+@media only screen and (max-width:900px) {
+.sy_ys1 li dl dt img{ width:60px; height:60px}
+}
+
+@media only screen and (max-width:800px) {
+.sy_ys1 li dl dt img{ width:60px; height:60px}
+.sy_ys1 li dl dd{overflow:hidden; margin:0px; padding:0px; font-size:12px; line-height:20px; color:#666}
+.sy_ys1 li dl dd h3{overflow:hidden; margin:0px; padding:0px; font-size:16px; font-weight:normal; margin-bottom:5px; color:#000000}
+}
+
+@media only screen and (max-width:500px) {
+.sy_ys1 li dl dd h3{overflow:hidden; margin:0px; padding:0px; font-size:14px; font-weight:normal; margin-bottom:5px; color:#000000}
+.sy_ys1 li dl{overflow:hidden; margin:0px; padding:0px; max-width:340px; width:92%; margin:0 auto;text-align:center}
+.sy_ys1 li dl dt img{ width:50px; height:50px}
+}
+
+@media only screen and (max-width:360px) {
+.sy_ys1 li{overflow:hidden; margin:0px; padding:0px; float:left; width:100%; margin-bottom:10px}
+.sy_ys1 li:last-child{margin-bottom:0px}
+}
+
+
+.m_bt_tilte{ overflow:hidden; text-align:center; padding:0px 0px  40px 0px; margin:0px}
+.m_bt_tilte h3{font-size:36px; line-height:36px; margin:0px; padding:0px; color:#111; text-align:center;font-weight:400}
+.m_bt_tilte h3 span{ font-weight:normal; vertical-align:middle;}
+.m_bt_tilte h3 span img{ width:auto; height:auto; margin-top:7px}
+.m_bt_tilte p{font-size:14px; line-height:22px; margin:0px; padding:0px; color:#666; text-align:center;text-transform:uppercase;}
+
+@media only screen and (max-width:1050px) {
+.m_bt_tilte{ overflow:hidden; text-align:center; padding:0px 0px  20px 0px; margin:0px}
+.m_bt_tilte h3{font-size:28px; line-height:36px; margin:0px; padding:0px;text-align:center}
+}
+
+
+.sy_ys_bg{background:#f6f6f6 url("../images/map-bg.png")/*tpa=https://www.xiyovpn.com/images/map-bg.png*/ no-repeat center;background-size:100% auto}
+.sy_ys2{overflow:hidden; margin:0px; padding:0px}
+.sy_ys2 dl{overflow:hidden; margin:0px; padding:0px;margin:0 auto;}
+.sy_ys2 dl dt{overflow:hidden; margin:0px; padding:0px;font-size:30px; font-weight:600; margin-bottom:10px; color:#000000}
+.sy_ys2 dl dd{overflow:hidden; margin:0px; padding:0px; font-size:14px; line-height:24px; color:#666}
+
+.sy_ys2_tu{  float:left; width:48%; margin:0px; padding:0px; overflow:hidden; margin-right:2%;margin-top:3%}
+.sy_ys2_tu img{ max-width:100%; height:auto; width:auto;}
+
+
+@media only screen and (max-width:1050px) {
+.sy_ys2 dl dt{overflow:hidden; margin:0px; padding:0px; margin-bottom:10px;font-size:25px; font-weight:700; margin-bottom:10px; color:#000000}
+.sy_ys2_tu{  float:left; width:45%; margin:0px; padding:0px; overflow:hidden; margin-right:2%;  margin-top:3%}
+}
+
+.sy_ys2_x_pic{overflow:hidden; margin:0px; padding:0px; text-align:center; margin-bottom:5px; display:none}
+.sy_ys2_x_pic img{ width:80px; height:80px}
+
+@media only screen and (max-width:750px) {
+.sy_ys_bg{background:#f6f6f6 url("../images/map-bg.png")/*tpa=https://www.xiyovpn.com/images/map-bg.png*/ no-repeat  center;background-size:150% auto}
+
+.sy_ys2 dl dt{overflow:hidden; margin:0px; padding:0px;font-size:20px; font-weight:400; margin-bottom:5px; color:#000000; text-align:center}
+.sy_ys2_tu{ display:none}
+.sy_ys2 dl{overflow:hidden; margin:0px; padding:0px; width:90%;margin:0 auto;}
+.sy_ys2_x_pic{ display:block}
+.sy_ys2 dl dd{overflow:hidden; margin:0px; padding:0px; font-size:12px; line-height:20px; color:#666}
+}
+
+
+.map-bg{ overflow: hidden; padding: 100px  0px;  margin: 0px;background:#f6f6f6 url("https://www.168182.xyz/images/map-bg.jpg")/*tpa=https://www.xiyovpn.com/images/map-bg.jpg*/ no-repeat center top;background-size: cover;}
+
+.jjbnt{ overflow:hidden; margin:0px; padding:0px}
+.jjbnt li{ overflow:hidden; margin:0px; padding:0px; float:left; width:33.3333%; padding:20px 0px;margin-bottom:1%;}
+.jjbnt li dl{ overflow:hidden; margin:0px; padding:0px; width:80%; margin:0 auto}
+.jjbnt li dl dt{ overflow:hidden; margin:0px; padding:0px; font-size:18px; color:#000; margin-bottom:5px; line-height:30px; font-weight:700; text-align:center}
+.jjbnt li dl dd{ overflow:hidden; margin:0px; padding:0px;font-size:14px; color:#444; line-height:24px;}
+
+.jjbnt_tu1{ overflow:hidden; text-align:center}
+.jjbnt_tu1 img{ width:90px; height:90px; vertical-align:top}
+
+.jjbnt li:hover dl dt{ color:#0acbc4}
+.jjbnt li:hover dl dd{ color:#333}
+.jjbnt li:hover .jjbnt_tu1 img{animation: tada 2s infinite;}
+
+
+@media screen and (max-width:1400px) {
+.jjbnt li dl dd{ overflow:hidden; margin:0px; padding:0px;font-size:14px;  line-height:22px; min-height:66px}
+}
+
+
+@media screen and (max-width:1090px) {
+.jjbnt li dl dt{ overflow:hidden; margin:0px; padding:0px; font-size:16px;text-align:center}
+.jjbnt li dl dd{ overflow:hidden; margin:0px; padding:0px;font-size:12px; color:#888; line-height:20px; min-height:60px}
+
+.map-bg{ overflow: hidden; padding: 80px  0px;  margin: 0px;background:#f6f6f6 url("https://www.168182.xyz/images/map-bg.jpg")/*tpa=https://www.xiyovpn.com/images/map-bg.jpg*/ no-repeat center top;background-size: cover;}
+
+}
+
+@media screen and (max-width:1050px) {
+.jjbnt_tu1 img{ width:60px; height:60px; vertical-align:top}
+
+.map-bg{ overflow: hidden; padding: 60px  0px;  margin: 0px;background:#f6f6f6 url("https://www.168182.xyz/images/map-bg.jpg")/*tpa=https://www.xiyovpn.com/images/map-bg.jpg*/ no-repeat center top;background-size: cover;}
+}
+
+@media screen and (max-width:900px) {
+.jjbnt_tu1 img{ width:60px; height:60px; vertical-align:top}
+.jjbnt li{ overflow:hidden; margin:0px; padding:0px; float:left; width:50%; padding:10px 0px; }
+.jjbnt li dl dd{ overflow:hidden; margin:0px; padding:0px;font-size:12px;  line-height:20px; margin:0 auto; min-height:40px; width:96%;}
+.map-bg{ overflow: hidden; padding:40px  0px;  margin: 0px;background:#f6f6f6 url("https://www.168182.xyz/images/map-bg.jpg")/*tpa=https://www.xiyovpn.com/images/map-bg.jpg*/ no-repeat center top;background-size: cover;}
+}
+
+@media screen and (max-width:760px) {
+.jjbnt li dl dd{ overflow:hidden; margin:0px; padding:0px;font-size:12px; color:#888; line-height:20px; min-height:60px}
+}
+
+@media screen and (max-width:600px) {
+.jjbnt li{ overflow:hidden; margin:0px; padding:0px; float:left; width:50%; padding:10px 0px;}
+.jjbnt_tu1{ float: none; margin-right:0px; overflow:hidden; text-align:center}
+.jjbnt li dl dt{ text-align:center}
+.jjbnt li dl dd{ overflow:hidden; margin:0px; padding:0px;font-size:12px; line-height:20px; min-height:60px}
+.jjbnt li dl{ overflow:hidden; margin:0px; margin:0 auto}
+.jjbnt li dl dt{font-size:16px}
+}
+
+
+@media screen and (max-width:480px) {
+.jjbnt_tu1{ float:left; margin-right:12px; overflow:hidden; text-align:left}
+.jjbnt_tu1 img{ width:70px; height:70px; vertical-align:top}
+.jjbnt li dl dt{ text-align:left}
+.jjbnt li{ overflow:hidden; margin:0px; padding:0px; float:left; width:98%; padding:10px 10px; margin-left:1%; margin-right:1%;}
+.jjbnt li dl dd{ overflow:hidden; margin:0px; padding:0px;font-size:12px;  line-height:20px; min-height:20px; height:auto;}
+.jjbnt li dl{ overflow:hidden; margin:0px; padding:0px 0px; width:auto}
+}
+
+
+.foot_box{ overflow:hidden; margin:0px; padding:0px 20px; float:left;width:100%; position:fixed; left:0; bottom:0;z-index:999; background:#13cac4; border-top:#0aafaa 1px solid; height:60px; display:none}
+.d_logo{ float:left; width:auto; margin-top:12px;}
+.d_logo img{ height:36px; width:auto; vertical-align:top}
+
+
+
+.f_down_btn{width: 130px;line-height:40px; height:40px;border-radius: 22px;background: #fff; font-size:18px;font-weight: 700; color: #0ec5bf; margin:0 auto; text-align:center; margin-top:10px; float:right;box-shadow:0 0 10px 1px rgba(0,0,0,.1)}
+
+
+.top_ny_k{overflow:hidden; margin:0px; padding:0px 20px;width:100%; background:#fff;height:60px; display:block}
+
+.adbanner_tu{overflow:hidden; margin:0px; padding:0px;}
+.adbanner_tu img{ width:100%; height:auto; vertical-align:top}
+
+@media screen and (max-width:1050px) {
+.top_ny_k{height:58px;}
+
+.foot_box{ display:block}
+body{ padding-bottom:60px}
+}
+
+
+
+
+
+
+.kong{ overflow:hidden; margin:0px; padding:0px; clear:both; height:180px}
+
+
+
+.navCur{ border-bottom:1px solid #d9d9d9; height:52px; margin-bottom:20px}
+.navCur i{ display:inline-block; border-bottom:4px solid #08d4cb; color:#08d4cb; font-size:22px; font-weight:bold; height:52px; line-height:40px; padding:0 10px; font-style:normal}
+
+.navSubLeft{ text-align:center}
+.navSubLeft a{ line-height:26px; padding:12px 25px; display:block; font-size:15px; background:#f5f5f5; margin-top:5px;border-left:6px solid #e5e5e5; }
+.navSubLeft a:hover{color:#fff; background:#7ad0cc; border-left:6px solid #e5e5e5}
+.navSubLeft .on{color:#fff; background:#08d4cb!important;border-left:6px solid #03a6b0!important;}
+
+@media only screen and (max-width:1200px) {
+.inbox_L{ overflow:hidden; margin:0px; padding:0px; float:left; width:75%; background:#fff;box-shadow:0 0 4px 1px rgba(105,105,105,.1); min-height:300px}
+.inbox_R{ overflow:hidden; margin:0px; padding:0px; float: right; width:22%;}
+
+}
+
+
+.title_bt_txt{ overflow:hidden; margin:0px; padding:0px; text-align:center}
+.title_bt_txt h3{font-size: 45px;margin-bottom: 10px; line-height:54px; color:#000000; font-weight:300;}
+.title_bt_txt p{overflow:hidden; margin:0px; padding:0px; font-size:16px; color:#666666; line-height:24px;}
+
+.title_bt_1{ overflow:hidden; margin:0px; padding:0px;font-weight:300;font-size: 45px;margin-bottom: 10px; line-height:54px;}
+.title_bt_2{ overflow:hidden; margin:0px; padding:0px;font-weight:300;font-size: 30px;margin-bottom: 10px; line-height:40px;}
+
+.main_L{ float:left; width:20%; overflow:hidden; margin:0px; padding:0px }
+.main_R{ float: right; width:77%; overflow:hidden; margin:0px; padding:0px }
+
+@media screen and (max-width:1050px) {
+
+.main_L{ width:100%; margin-bottom:15px}
+.main_R{ width:100%;}
+
+.navCur{ display:none}
+
+.navSubLeft{ text-align:center; margin:0 auto; max-width:600px; width:100%}
+.navSubLeft a{ line-height:26px; padding:12px 0px; display:block; font-size:15px; background:#f5f5f5; margin-top:5px;border-left:0px solid #e5e5e5; width:31.33%; float:left; margin-left:1%; margin-right:1%}
+.navSubLeft a:hover{color:#fff; background:#7ad0cc; border-left:0px solid #e5e5e5}
+.navSubLeft .on{color:#fff; background:#08d4cb!important;border-left:0px solid #03a6b0!important;}
+
+
+
+
+.title_bt_txt h3{font-size:30px;margin-bottom: 10px; line-height:46px; color:#000000; font-weight:300;}
+
+.title_bt_1{ overflow:hidden; margin:0px; padding:0px;font-weight:300;font-size:28px;margin-bottom: 10px; line-height:30px;}
+.title_bt_2{ overflow:hidden; margin:0px; padding:0px;font-weight:300;font-size:20px;margin-bottom: 10px; line-height:30px;}
+
+}
+
+
+.txt_b{ font-weight:700; color:#00a5a0}
+.txt_b a{ color:#00a5a0}
+.main_cont_k{ overflow:hidden; padding:0px; margin:0px; max-width:1200px; width:92%; margin:0 auto}
+
+.content_txt{line-height:190%; color:#333333; font-size:16px; overflow:hidden; padding:0px 0px 10px 0px;}
+.content_txt p{line-height:190%; color:#333333; font-size:16px; overflow:hidden;}
+.content_txt img{MAX-WIDTH: 100%!important;HEIGHT: auto!important;}
+@media (max-width: 1400px) {
+.content_txt{line-height:190%; color:#333333; font-size:14px; overflow:hidden; padding:0px 0px 10px 0px;}
+.content_txt p{line-height:190%; color:#333333; overflow:hidden; font-size:14px; }
+}
+
+
+.hzdl{ overflow:hidden; padding:0px; margin:0px; }
+.hzdl li{ overflow:hidden; padding:0px; margin:0px; padding:15px 0px ; border-bottom:#CCCCCC 1px  dashed; margin-bottom:20px}
+.hzdl li dl{ overflow:hidden; padding:0px 0px; margin:0px; margin:0 auto;}
+.hzdl li dl dt{ overflow:hidden; padding:0px; margin:0px;}
+.hzdl li dl dt img{ width:70px; height:70px; vertical-align:top;transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+.hzdl li dl dt h3{ overflow:hidden; padding:0px; margin:0px; font-size:22px; font-weight:500; line-height:34px; margin-bottom:5px; }
+.hzdl li dl dd{ overflow:hidden; padding:0px; margin:0px;font-size:14px; font-weight:400; list-style:26px;color:#666666;}
+
+.hzdl_tu{ float:left; margin-right:20px; width:70px; height:auto}
+.hzdl_tu img{ width:70px; height:70px; vertical-align:top;transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+
+
+.hzdl li:hover .hzdl_tu img{animation: tada 2s infinite;}
+.hzdl li:hover dl dt h3{ color:#0acbc4}
+
+
+
+
+.contactlist{overflow:hidden; padding:0px; margin:0px;}
+.contactlist li{overflow:hidden; padding:0px; margin:0px; width:33.3333%; float:left;}
+
+.contactlist li dl{ width:92%; margin:0 auto;overflow:hidden; padding:40px 10px; min-height:130px; border-radius:0px 30px 0px 30px}
+.contactlist li dl dd{overflow:hidden; padding:0px; text-align:center; font-size:16px; font-weight:500; line-height:30px; color:#FFFFFF;text-shadow: 1px 1px 1px #00000060;}
+
+
+.contactlist li:nth-child(1) dl{ background:url("https://www.168182.xyz/images/lx1.jpg")/*tpa=https://www.xiyovpn.com/images/lx1.jpg*/ no-repeat center; background-size:cover}
+.contactlist li:nth-child(2) dl{ background:url("https://www.168182.xyz/images/lx2.jpg")/*tpa=https://www.xiyovpn.com/images/lx2.jpg*/ no-repeat center; background-size:cover}
+.contactlist li:nth-child(3) dl{ background:url("https://www.168182.xyz/images/lx3.jpg")/*tpa=https://www.xiyovpn.com/images/lx3.jpg*/ no-repeat center; background-size:cover}
+
+@media (max-width: 800px) {
+
+.hzdl li dl dt img{ width:60px; height:60px; vertical-align:top;transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+.hzdl li dl dt h3{ overflow:hidden; padding:0px; margin:0px; font-size:18px; font-weight:500; line-height:34px; margin-bottom:5px; }
+.contactlist li dl{ width:94%; margin:0 auto;overflow:hidden; padding:20px 10px; min-height:120px }
+}
+
+@media (max-width:700px) {
+.contactlist li dl{ width:94%; margin:0 auto;overflow:hidden; padding:20px 10px; min-height:50px; height:auto}
+.contactlist li{overflow:hidden; padding:0px; margin:0px; width:100%; float:left; margin-bottom:15px}
+}
+
+.pt_logo{ padding:0px 0px 20px 0px; margin:0px; padding:0px; overflow:hidden; max-width:500px; width:80%; margin:0 auto; height:80px}
+.pt_logo li{ width:20%; margin:0px; padding:0px; overflow:hidden; text-align:center; float:left}
+.pt_logo li img{ width:50px; height:50px; vertical-align:top}
+
+
+@media (max-width:700px) {
+.pt_logo{ padding:0px 0px 20px 0px; margin:0px; padding:0px; overflow:hidden; max-width:500px; width:80%; margin:0 auto; height:40px}
+.pt_logo li img{ width:40px; height:40px; vertical-align:top}
+}
+
+
+
+
+
+/*--------特点-----------*/
+
+.dsp_td{ overflow:hidden; margin:0px; padding:0px; }
+.dsp_td li{ overflow:hidden; margin:0px; padding:0px; width:33.33%; list-style:none; margin-bottom:10px; float:left}
+.dsp_td li dl{ overflow:hidden; margin:0px; padding:0px; width:70%; padding:20px 30px; margin:0 auto;margin-top:20px; margin-bottom:20px;  background:#fff; border:#eee 1px solid}
+.dsp_td li dl dt{ overflow:hidden; margin:0px; padding:0px;font-size:18px; color:#0ac2bc; line-height:190%; text-align: center; margin-bottom:5px; font-weight:700}
+.dsp_td li dl dd{ overflow:hidden; margin:0px; padding:0px;color:#888; font-size:14px; line-height:22px; text-align:left; min-height:66px}
+.dsp_td li dl dt img{ height:100px; width:auto;}
+
+.dsp_td li dl:hover{box-shadow:0 0 20px 1px rgba(0,0,0,.1);transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;background:#fff}
+.dsp_td li dl:hover dt img{-webkit-transform: scale(0.9);transform: scale(0.9);-moz-transform: scale(0.9);transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+
+
+@media screen and (max-width:1300px) {
+.dsp_td li dl{ overflow:hidden; margin:0px; padding:0px; width:90%; padding:20px 30px;margin:0 auto}
+}
+
+@media screen and (max-width:1000px) {
+.dsp_td li dl{ overflow:hidden; margin:0px; padding:0px; width:92%; padding:20px 20px;}
+.dsp_td li dl dt{ overflow:hidden; margin:0px; padding:0px;font-size:16px;}
+.dsp_td li dl dt img{ height:80px; width:auto;}
+}
+
+@media screen and (max-width:880px) {
+.dsp_td li dl{ overflow:hidden; margin:0px; padding:0px; width:94%; padding:20px 15px;margin:0 auto}
+}
+
+@media screen and (max-width:830px) {
+.dsp_td li dl  dd{ font-size:12px;}
+}
+
+@media screen and (max-width:730px) {
+.dsp_td li dl  dd{ font-size:12px;}
+.dsp_td li dl{ overflow:hidden; margin:0px; padding:0px; width:95%; padding:20px 10px;}
+}
+
+@media screen and (max-width:700px) {
+.dsp_td li dl  dd{ font-size:12px; min-height:80px; line-height:20px}
+
+}
+
+@media screen and (max-width:570px) {
+.dsp_td li dl  dd{ font-size:12px;line-height:20px; text-align:center; min-height:20px; height:auto; }
+.dsp_td li{ overflow:hidden; margin:0px; padding:0px; width:100%; list-style:none; margin-bottom:15px; float:left}
+.dsp_td li dl{ overflow:hidden; margin:0px; padding:0px; width:92%; padding:20px 30px; margin:0 auto}
+.dsp_td li dl dt img{ height:60px; width:auto;}
+}
+
+
+
+.us_sy_bg{ overflow:hidden; width:100%;background:#F1F1F1 url("https://www.168182.xyz/images/seo_bg.jpg")/*tpa=https://www.xiyovpn.com/images/seo_bg.jpg*/ no-repeat center  bottom;background-size:100% auto; display:block; padding:80px 0px  80px 0px }
+
+.us_sy{overflow:hidden; padding:0px; margin:0px}
+.us_sy li{overflow:hidden; padding:0px; margin:0px; float:left; width:33.333%; margin-bottom:20px;}
+.us_sy li dl{overflow:hidden; padding:0px; margin:0px; width:86%; margin:0 auto}
+.us_sy li dl dt{overflow:hidden; padding:0px; margin:0px; text-align:center}
+.us_sy li dl dt img{ max-width:128px;width:100%; height:auto; vertical-align:top} 
+.us_sy li dl dd{overflow:hidden; padding:0px; margin:0px; font-size:14px; line-height:26px; color:#333333; min-height:52px}
+.us_sy li dl dt{ font-size:16px; font-weight:bold; margin-bottom:5px}
+
+
+/*--------PC下载区-----------*/
+
+.pc_xz_k{ display:block}
+
+.pc_downlist{overflow:hidden; margin:0px; padding:0px;}
+.pc_downlist li{overflow:hidden; margin:0px; padding:20px 0px; float:left; width:25%;}
+.pc_downlist li dl{overflow:hidden; margin:0px; padding:20px 0px; width:90%; margin:0 auto; background:#11aea8}
+.pc_downlist li dl dt{overflow:hidden; margin:0px; padding:0px; margin:0 auto; width:80px; height:80px; background:#FFFFFF; margin-bottom:10px; border-radius:50%; text-align:center}
+.pc_downlist li dl dt img{overflow:hidden; margin:0px; padding:0px; margin:0 auto; width:40px; height:40px; margin-top:20px;transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+.pc_downlist li dl dd{overflow:hidden; margin:0px; padding:0px; text-align:center; font-size:18px; line-height:190%; color:#FFFFFF}
+
+.pc_downlist li{ display:inline}
+
+.pc_downlist li:hover dl{background:#07918b;box-shadow:0 0 15px 1px rgba(0,0,0,.2)}
+.pc_downlist li:hover dt img{transform:rotateY(180deg);transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+
+@media screen and (max-width:1000px) {
+.pc_xz_k{ display: none}
+
+}
+
+
+
+
+.pc_xzlist{overflow:hidden; padding:0px; margin:0px;}
+.pc_xzlist li{ overflow:hidden; padding:20px 0px 20px 0px; margin:0px; width:33.33%; list-style:none; float:left; margin-bottom:20px; border:0px solid #ddd;}
+.pc_xzlist li dl{ overflow:hidden; padding:0px; margin:0px;width:90%; margin:0 auto; position:relative; height:150px}
+.pc_xzlist li dl dt{ overflow:hidden; padding:0px; margin:0px; font-size:16px; font-weight:600; line-height:30px; color:#222; text-align:center}
+.pc_xzlist li dl dd{ overflow:hidden; padding:0px; margin:0px; font-size:16px; line-height:30px; color:#222; text-align:center;position:absolute; z-index:3; width:100%; float:left; left:0;top:25px;transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+
+.pc_xz_tu1{background:url("../images/i_windows.png")/*tpa=https://www.xiyovpn.com/images/i_windows.png*/ no-repeat center; width:auto; height:50px; background-size:auto 50px; margin-top:15px; position:absolute; z-index:4; width:100%; float:left;top:60px;transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+.pc_xz_tu2{background:url("../images/i_android.png")/*tpa=https://www.xiyovpn.com/images/i_android.png*/ no-repeat center; width:auto; height:50px; background-size:auto 50px; margin-top:15px; position:absolute; z-index:4; width:100%; float:left;top:60px;transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+.pc_xz_tu3{background:url("../images/i_ios.png")/*tpa=https://www.xiyovpn.com/images/i_ios.png*/ no-repeat center; width:auto; height:50px; background-size:auto 50px; margin-top:15px; position:absolute; z-index:4; width:100%; float:left;top:60px;transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+.pc_xz_tu4{background:url("../images/down_icon4.png")/*tpa=https://www.xiyovpn.com/images/down_icon4.png*/ no-repeat center; width:auto; height:50px; background-size:auto 50px; margin-top:15px; position:absolute; z-index:4; width:100%; float:left;top:60px;transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+
+.pc_xzlist li:hover { background:#13cac4}
+.pc_xzlist li:hover dl dd{ color:#FFFFFF;top:10px}
+.pc_xzlist li:hover .pc_xz_tu1{background:url("../images/down_icon1_1.png")/*tpa=https://www.xiyovpn.com/images/down_icon1_1.png*/ no-repeat center; width:auto; height:53px;background-size:auto 53px;position:absolute; z-index:4; width:100%; float:left;top:65px}
+.pc_xzlist li:hover .pc_xz_tu2{background:url("../images/down_icon2_1.png")/*tpa=https://www.xiyovpn.com/images/down_icon2_1.png*/ no-repeat center; width:auto; height:53px;background-size:auto 53px;position:absolute; z-index:4; width:100%; float:left;top:65px}
+.pc_xzlist li:hover .pc_xz_tu3{background:url("../images/down_icon3_1.png")/*tpa=https://www.xiyovpn.com/images/down_icon3_1.png*/ no-repeat center; width:auto; height:53px;background-size:auto 53px;position:absolute; z-index:4; width:100%; float:left;top:65px}
+.pc_xzlist li:hover .pc_xz_tu4{background:url("../images/down_icon4_1.png")/*tpa=https://www.xiyovpn.com/images/down_icon4_1.png*/ no-repeat center; width:auto; height:53px;background-size:auto 53px;position:absolute; z-index:4; width:100%; float:left;top:65px}
+
+
+.bbxz_btn_k{ margin:0px; padding:0px; overflow:hidden;transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;  position:absolute; z-index:2; width:100%; float:left; left:0;top:-60px}
+.bbxz_btn{ width:100px; padding:0px;font-size:16px; margin:0px; text-align:center; line-height:26px; height:26px; background:#fff; border-radius:30px; margin:0 auto}
+
+.pc_xzlist li:hover .bbxz_btn_k{ display:block;transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;top:41px}
+.pc_xzlist_tu li:hover dl{ transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;top:20px}
+
+
+.pc_xzlist_tu img{ width:34px; height:34px; vertical-align:top}
+.pc_xzlist_tu li:hover .sy_rgtd_tu img{animation: tada 2s infinite;}
+.pc_xzlist_tu li a:hover dd{ color:#444}
+
+
+.pc_xzlist_tu li:hover dl dt{ color:#005ddc}
+
+.pc_xzlist li:hover .pc_xzlist_tu img{animation: tada 2s infinite;}
+.pc_xzlist li:hover dt{color:#005ddc}
+
+.pc_xzlist li:nth-child(1){ border-right:0px solid #ddd;}
+.pc_xzlist li:nth-child(2){ border-right:0px solid #ddd;}
+.pc_xzlist li:nth-child(3){ border-right:0px solid #ddd;}
+
+
+.contact_lx{overflow: hidden; margin: 0px; padding:0px; text-align: center}
+.contact_lx img{max-width:100%; width: auto; height: auto;}
+
+
+
+
+
+
+/*-------banner-----------*/
+.fixed_banner1{ width:100%; height:300px ;background:#52bce4 url("../images/bg_bg1.jpg")/*tpa=https://www.xiyovpn.com/images/bg_bg1.jpg*/ no-repeat center;  background-size:cover;display:block;}
+.fixed_banner2{ width:100%; height:300px; background:#52bce4 url("../images/bg_bg2.jpg")/*tpa=https://www.xiyovpn.com/images/bg_bg2.jpg*/ no-repeat center top; background-size:cover;display:block;}
+.fixed_banner3{ width:100%; height:300px; background:#52bce4 url("../images/bg_bg3.jpg")/*tpa=https://www.xiyovpn.com/images/bg_bg3.jpg*/ no-repeat center top; background-size:cover; display:block;}
+
+
+
+@media only screen and (max-width:1200px) {
+.fixed_banner1{ width:100%; height:200px; background:url("../images/bg_bg1.jpg")/*tpa=https://www.xiyovpn.com/images/bg_bg1.jpg*/ no-repeat center center; background-size:cover; display:block;}
+.fixed_banner2{ width:100%; height:200px; background:url("../images/bg_bg2.jpg")/*tpa=https://www.xiyovpn.com/images/bg_bg2.jpg*/ no-repeat center center; background-size:cover; display:block;}
+.fixed_banner2{ width:100%; height:200px; background:url("../images/bg_bg3.jpg")/*tpa=https://www.xiyovpn.com/images/bg_bg3.jpg*/ no-repeat center center; background-size:cover; display:block;}
+}
+
+@media only screen and (max-width:900px) {
+.fixed_banner1{ width:100%; height:150px; background:#00A2EA url("../images/bg_bg1.jpg")/*tpa=https://www.xiyovpn.com/images/bg_bg1.jpg*/ no-repeat center center; background-size:cover; display:block;}
+.fixed_banner2{ width:100%; height:150px; background:url("../images/bg_bg2.jpg")/*tpa=https://www.xiyovpn.com/images/bg_bg2.jpg*/ no-repeat center center; background-size:cover; display:block;}
+.fixed_banner3{ width:100%; height:150px; background:url("../images/bg_bg3.jpg")/*tpa=https://www.xiyovpn.com/images/bg_bg3.jpg*/ no-repeat center center; background-size:cover; display:block;}
+}
+
+
+
+/*------我们的优势-----------*/
+
+.wrap {
+	width: 96%;
+	margin: 0 auto;
+	max-width: 1200px;
+	position: relative;
+}
+
+
+.his_list {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+.his_list li {
+	width: 50%;
+	clear: both;
+	float: left;
+	position: relative;
+	padding-right: 5%;
+	text-align: right;
+}
+.his_list li h3 {
+	font-size: 25px; font-weight:700
+}
+.his_list li:after {
+	width: 19px;
+	height: 19px;
+	background: url("../images/icon6.png")/*tpa=https://www.xiyovpn.com/images/icon6.png*/ no-repeat center center;
+	left: 100%;
+	position: absolute;
+	margin-left: -9px;
+	content: '';
+	display: block;
+	top: 36px;
+}
+.his_list li .txt {
+	overflow: hidden;
+}
+.his_list li .txt p {line-height: 24px; margin-top:10px;}
+.his_list li:nth-child(2n) {
+	float: right;
+	padding-left: 5%;
+	padding-right: 0;
+}
+.his_list li .img {
+	float: left;
+	margin-right: 40px;
+	margin-top: 30px;
+}
+.his_list li:nth-child(2n+1) .txt p {
+	text-align: right;
+}
+.his_list li:nth-child(2n) {
+	text-align: left;
+}
+.his_list li:nth-child(2n):after {
+	left: auto;
+	margin-left: 0px;
+	right: 100%;
+	margin-right: -9px;
+}
+.his_list li:nth-child(2n) .img {
+	float: right;
+	margin-left: 30px;
+	margin-right: 0
+}
+.his_list {
+	position: relative;
+	padding: 40px 0;
+	margin: 40px auto;
+}
+.his_list .line {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 1px;
+	margin: 0 auto;
+	background: #e5e5e5
+}
+.his_list .line:after {
+	content: '';
+	display: block;
+	width: 11px;
+	height: 11px;
+	border-radius: 100%;
+	border: 1px solid #d7d7d7;
+	background: #fff;
+	margin-left: -6px;
+}
+ @media only screen and (max-width:800px) {
+ 
+ .his_list li:nth-child(2n) .img {
+	float: left;
+	margin-left:0px;
+	margin-right: 0
+}
+ .his_list li {
+	margin-bottom: 20px;
+	width: 100%;
+	text-align: left; padding-right:0px
+}
+.his_list li .img {
+	float: left !important;
+	margin: 0 auto !important;
+	margin-right:0px !important;
+	margin-top: 10px !important;
+}
+.his_list .line {
+	left: 0;
+	margin-left: 0;
+	display: none; padding:0px
+}
+.his_list li h3 {
+	font-size: 20px;
+}
+.his_list li .txt p {
+	margin-top: 10px;
+}
+.his_list {
+	padding: 0;
+	margin: 0;
+}
+.his_list li p {
+	text-align: left !important;
+}
+.his_list li:nth-child(2n) {
+	float: right;
+	padding-left: 0%;
+	padding-right: 0;
+}
+.his_list li:after { display:none}
+}
+ 
+ ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+ 
+ 
+ 
+ 
+
+
+
+ @media only screen and (max-width: 900px) {
+
+.his_list li .img {
+	width: 110px;
+}
+
+.ser_box .pic {
+	width: 100%;
+	max-width: initial;
+}
+.ser_box .web {
+	max-width: 80%;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.ser_box .web .top {
+	padding-left: 0
+}
+}
+ 
+ 
+@media only screen and (max-width: 800px) {
+
+.owl_cur {
+	display: none;
+}
+
+.his_list li {
+	margin-bottom: 20px;
+	width: 100%;
+	text-align: left;
+}
+.his_list li .img {
+	float: left !important;
+	margin: 0 auto !important;
+	margin-right:5px !important;
+
+}
+.his_list .line {
+	left: 0;
+	margin-left: 0;
+	display: none;
+}
+.his_list li h3 {
+	font-size:18px; font-weight:700; margin-top:10px}
+.his_list li .txt p {
+	margin-top:5px;font-size:12px; line-height:22px
+}
+.his_list {
+	padding: 0;
+	margin: 0;
+}
+.his_list li p {
+	text-align: left !important; 
+}
+
+
+
+}
+ 
+ 
+ 
+ 
+.zy_top_bg{overflow: hidden; padding: 0px;  margin: 0px;background: url("../images/top_bg.jpg")/*tpa=https://www.xiyovpn.com/images/top_bg.jpg*/ no-repeat center top; padding-bottom:250px }
+ 
+.zy_top_txt{overflow:hidden; margin:0px; padding:0px; margin-top:2%; margin-bottom:20px; text-align:center}
+.zy_top_txt img{ max-width:100%; width:auto; height:auto; vertical-align:top;}
+ 
+.zy_main_tu_bg{overflow: hidden;padding: 0px;margin: 0px;width:100%;position:relative;margin-top:-250px;background: url("../images/zy_main_tu_bg.jpg")/*tpa=https://www.xiyovpn.com/images/zy_main_tu_bg.jpg*/ repeat-x center   bottom;}
+ 
+ 
+.zy_main_tu_box{ position:relative;margin:0px; padding:0px; overflow:hidden; max-width:880px; width:94%; margin:0 auto}
+.zy_main_tu_box .zy_main_tu1{margin:0px; padding:0px; overflow:hidden;}
+.zy_main_tu_box .zy_main_tu2{margin:0px; padding:0px; overflow:hidden; position:absolute; z-index:12; float:left; left:0; width:100%;top:0}
+.zy_main_tu_box .zy_main_tu3{margin:0px; padding:0px; overflow:hidden; position:absolute; z-index:13; float:left; left:0; width:100%;top:0}
+.zy_main_tu_box .zy_main_tu4{margin:0px; padding:0px; overflow:hidden; position:absolute; z-index:14; float:left; left:0; width:100%;top:0}
+
+.zy_main_tu1 img{max-width:100%; width:auto; height:auto; vertical-align:top}
+.zy_main_tu2 img{max-width:100%; width:auto; height:auto; vertical-align:top}
+.zy_main_tu3 img{max-width:100%; width:auto; height:auto; vertical-align:top}
+.zy_main_tu4 img{max-width:100%; width:auto; height:auto; vertical-align:top}
+
+
+ 
+ 
+@media only screen and (max-width: 600px) {
+.zy_top_bg{overflow: hidden; padding: 0px;  margin: 0px;background: url("../images/top_bg.jpg")/*tpa=https://www.xiyovpn.com/images/top_bg.jpg*/ no-repeat center top; padding-bottom:120px }
+.zy_main_tu_bg{overflow: hidden;padding: 0px;margin: 0px;width:100%;position:relative;margin-top:-130px;background: url("../images/zy_main_tu_bg1.jpg")/*tpa=https://www.xiyovpn.com/images/zy_main_tu_bg1.jpg*/ repeat-x center bottom;}
+
+}
+
+
+
+
+
+
+
+.advantage1{ overflow:hidden; margin:0px; padding:0px}
+.advantage1 li{ overflow:hidden; margin:0px; padding:50px 0px; float:; width:100%;float:left}
+.advantage1 li dl{ overflow:hidden; margin:0px; padding:0px 8%;}
+.advantage1 li dl dt{ overflow:hidden; margin:0px; padding:0px; color:#222; line-height:200%; font-size:30px; font-weight:bold;padding:0px 20px; padding-top:15%}
+.advantage1 li dl dd{ overflow:hidden; margin:0px; padding:0px;color:#666; line-height:190%; font-size:16px;padding:0px 20px;}
+
+.advantage1_tu{overflow:hidden; margin:0px; padding:0px; position:relative; float:left; width:50%;}
+.advantage1_tu img{ max-width:100%; width:auto; height:auto; vertical-align:top; text-align:center;transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+
+.advantage1 li:nth-child(2n-1) .advantage1_tu{ float:left; }
+.advantage1 li:nth-child(2n) .advantage1_tu{ float: right;}
+.advantage1 li:nth-child(2n-1){ background:#f5f5f5}
+.advantage1 li:nth-child(2n){ background:#fff}
+.advantage1_tu:hover img{-webkit-transform: scale(0.9);transform: scale(0.9);-moz-transform: scale(0.9);transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+
+@media only screen and (max-width:1100px) {
+.advantage1 li{ overflow:hidden; margin:0px; padding:30px 0px; float:; width:100%;float:left}
+.advantage1_tu{overflow:hidden; margin:0px; padding:0px; position:relative; float:left; width:50%;}
+.advantage1 li dl{ overflow:hidden; margin:0px; padding:0px 2%;}
+.advantage1 li dl dt{ overflow:hidden; margin:0px; padding:0px; color:#222; line-height:200%; font-size:20px; font-weight:bold;padding:0px 20px; padding-top:10%}
+.advantage1 li dl dd{ overflow:hidden; margin:0px; padding:0px;color:#666; line-height:190%; font-size:14px;padding:0px 20px;}
+}
+
+@media only screen and (max-width:550px) {
+.advantage1 li{ overflow:hidden; margin:0px; padding:30px 0px; float:; width:100%;float:left}
+.advantage1 li:nth-child(2n-1) .advantage1_tu{ float:left;}
+.advantage1 li:nth-child(2n) .advantage1_tu{ float: left;}
+.advantage1_tu{overflow:hidden; margin:0px; padding:0px; position:relative; float:left; width:100%;}
+.advantage1_tu img{ max-width:100%; width:auto; height:auto; vertical-align:top; text-align:center}
+.advantage1 li dl dt{ overflow:hidden; margin:0px; padding:0px; color:#222; line-height:200%; font-size:18px; font-weight:bold;padding:0px 10px; padding-top:10px}
+.advantage1 li dl dd{ overflow:hidden; margin:0px; padding:0px;color:#666; line-height:22px; font-size:12px;padding:0px 10px;}
+}
+
+
+
+
+
+
+
+
+
+.wh_box{ overflow:hidden; margin:0px; padding:0px; max-width:1100px; width:100%; margin:0 auto}
+.wh_box li{ float:left; width:33.3333%; list-style:none; margin:0px; padding:0px}
+
+.wh_box li dl{overflow:hidden; margin:0px; padding:0px; height:200px; text-align:center; transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s; background:#f5f5f5}
+.wh_box li dl dt{overflow:hidden; margin:0px; padding:0px; font-size:25px; line-height:30px; color:#222; padding-top:50px; margin-bottom:10px; font-weight:700}
+.wh_box li dl dd{overflow:hidden; margin:0px; padding:0px 20px; font-size:14px; line-height:24px; color:#666;text-transform:uppercase;}
+
+.topArrow1{border-bottom:15px solid #f5f5f5; border-left:15px solid transparent;border-right:15px solid transparent; width:0px; height:0px; margin:0 auto; position:absolute; z-index:2; left:50%; margin-left:-15px; bottom:0;transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;} 
+
+.topArrow2{border-top:15px solid #f5f5f5; border-right:15px solid transparent;border-left:15px solid transparent; width:0px; height:0px; margin:0 auto; position:absolute; z-index:2; left:50%; margin-left:-15px; top:0;transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;} 
+
+
+.wh_tu{ overflow:hidden; margin:0px; padding:0px;position:relative;height:200px; text-align:center;}
+.wh_tu img{ width:100%; height:100%; vertical-align:top; transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+
+.wh_box li:hover .wh_tu img{-webkit-transform: scale(1.1);transform: scale(1.1);-moz-transform: scale(1.1);transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+.wh_box li:hover dl{ background:#2adbd3; transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s;}
+.wh_box li:hover dl dt{ color:#FFF}
+.wh_box li:hover dl dd{ color:#FFF}
+.wh_box li:hover .topArrow1{border-bottom:15px solid #2adbd3; border-left:15px solid transparent;border-right:15px solid transparent; width:0px; height:0px; margin:0 auto; position:absolute; z-index:2; left:50%; margin-left:-15px; bottom:0}
+
+
+.wh_box li:hover .topArrow2{border-top:15px solid #2adbd3; border-right:15px solid transparent;border-left:15px solid transparent; width:0px; height:0px; margin:0 auto; position:absolute; z-index:2; left:50%; margin-left:-15px; top:0} 
+
+  
+
+@media only screen and (max-width:1366px) {
+.wh_box li dl{overflow:hidden; margin:0px; padding:0px; height:240px; text-align:center;}
+.wh_tu{ overflow:hidden; margin:0px; padding:0px;position:relative;height:240px;}
+}
+
+
+
+
+@media only screen and (max-width:1200px) {
+.wh_box li dl{overflow:hidden; margin:0px; padding:0px; height:190px; text-align:center;}
+.wh_box li dl dt{overflow:hidden; margin:0px; padding:0px; font-size:28px; line-height:30px; color:#222; padding-top:60px}
+.wh_tu{ overflow:hidden; margin:0px; padding:0px;position:relative;height:200px;}
+
+}
+
+@media only screen and (max-width:900px) {
+.wh_box{ overflow:hidden; margin:0px; padding:0px; padding-top:20px}
+.wh_box li dl{overflow:hidden; margin:0px; padding:0px; height:140px; text-align:center;}
+.wh_tu{ overflow:hidden; margin:0px; padding:0px;position:relative;height:140px;}
+
+.wh_box li dl dt{overflow:hidden; margin:0px; padding:0px; font-size:20px; line-height:22px; color:#222; padding-top:25px; margin-bottom:5px}
+.wh_box li dl dd{overflow:hidden; margin:0px; padding:0px 10px; font-size:14px; line-height:20px; color:#666;text-transform:uppercase;}
+}
+
+@media only screen and (max-width:750px) {
+.wh_box li dl{overflow:hidden; margin:0px; padding:0px; height:140px; text-align:center;}
+.wh_tu{ overflow:hidden; margin:0px; padding:0px;position:relative;height:140px;}
+
+.wh_box li dl dt{overflow:hidden; margin:0px; padding:0px; font-size:18px; line-height:22px; color:#222; padding-top:20px; margin-bottom:5px}
+.wh_box li dl dd{overflow:hidden; margin:0px; padding:0px 10px; font-size:12px; line-height:18px; color:#666;text-transform:uppercase;}
+}
+
+
+@media only screen and (max-width:510px) {
+.wh_box li dl{overflow:hidden; margin:0px; padding:0px 0px 0px 0px; height:auto; text-align:left; float:right; width:61%; background:#fff}
+.wh_box li{ float:left; width:100%; list-style:none; margin:0px; padding:0px; margin-bottom:20px}
+.wh_box li dl dt{overflow:hidden; margin:0px; padding:0px; font-size:16px; line-height:22px; color:#222; margin-bottom:2px}
+.wh_tu{ overflow:hidden; margin:0px; padding:0px;position:relative;height:auto; text-align:center; float:left; width:35%; margin-right:4%}
+.wh_tu img{ width:100%; height:auto; vertical-align:top; transition: 0.3s;-moz-transition: 0.3s;-webkit-transition: 0.3s; border-radius:8px}
+.wh_box li dl dd{ padding:0px;}
+.topArrow1{ display:none}
+.topArrow2{ display:none}
+}
+
+
+
+
+
